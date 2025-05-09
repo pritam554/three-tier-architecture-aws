@@ -108,7 +108,7 @@ three-tier-architecture-aws/
 14. Create Backend Server AMI
     1. Install PHP, MySQL, Apache
     2. Install Git
-    3. Run the database script
+    3. Run the database script   (login to Db :  mysql -h <endpoint> -u <user> -p
 15. Create the Launch Template for Frontend Server
 16. Create the Launch Template for Backend Server
 17. Create the Auto Scaling Group for Frontend Server
