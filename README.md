@@ -91,11 +91,11 @@ three-tier-architecture-aws/
     1. Public -> IGW
     2. Private -> NAT
 8. Create security groups
-    1. Frontend ALB
-    2. Frontend Servers
-    3. Backend ALB
-    4. Backend Servers
-    5. Db Private Servers
+    1. Frontend ALB   (HTTP)
+    2. Frontend Servers   (HTTP)
+    3. Backend ALB   (HTTP)
+    4. Backend Servers   (HTTP)
+    5. Db Private Servers   (Open port 3306)
 9. Create database subnet group
 10. Create database server
 11. Create Frontend ALB
