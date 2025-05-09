@@ -96,7 +96,7 @@ three-tier-architecture-aws/
     3. Backend ALB   (HTTP)
     4. Backend Servers   (HTTP)
     5. Db Private Servers   (Open port 3306)
-9. Create database subnet group
+9. Create database subnet group   (database-subnet-group)
 10. Create database server
 11. Create Frontend ALB
     1. Create Frontend ALB target group 
