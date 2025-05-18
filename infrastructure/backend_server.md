@@ -5,7 +5,7 @@ https://docs.aws.amazon.com/linux/al2023/ug/ec2-lamp-amazon-linux-2023.html
 
 1. To ensure that all of your software packages are up to date, perform a quick software update on your instance. This process might take a few minutes, but it is important to make sure that you have the latest security updates and bug fixes.
 The -y option installs the updates without asking for confirmation. If you would like to examine the updates before installing, you can omit this option.
-sudo dnf upgrade -y
+$ sudo dnf upgrade -y
 
 2. Install the latest versions of Apache web server and PHP packages for AL2023.
 [ec2-user ~]$ sudo dnf install -y httpd wget php-fpm php-mysqli php-json php php-devel
